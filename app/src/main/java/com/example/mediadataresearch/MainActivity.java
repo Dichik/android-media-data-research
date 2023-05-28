@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
     private Intent intentVideo;
 
     private AppBarConfiguration appBarConfiguration;
-    private ActivityMainBinding binding;
+//    private ActivityMainBinding binding;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

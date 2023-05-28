@@ -22,6 +22,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".AudioActivity"
+            android:label="Audio Activity">
+        </activity>
+        <activity
+            android:name=".VideoActivity"
+            android:label="Video Activity">
+        </activity>
     </application>
 
 </manifest>
