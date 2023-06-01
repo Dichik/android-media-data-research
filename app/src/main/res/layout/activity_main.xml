@@ -7,20 +7,18 @@
     tools:context=".MainActivity">
 
     <Button
+        android:layout_width="205dp"
         android:layout_height="wrap_content"
-        android:layout_width="wrap_content"
-        android:text="Audio"
         android:onClick="audioPlay"
-        />
+        android:text="Audio" />
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="205dp"
         android:layout_height="wrap_content"
-        android:text="Video"
         android:onClick="videoPlay"
-        />
+        android:text="Video" />
 
-<!--    <com.google.android.material.appbar.AppBarLayout-->
+    <!--    <com.google.android.material.appbar.AppBarLayout-->
 <!--        android:layout_width="match_parent"-->
 <!--        android:layout_height="wrap_content"-->
 <!--        android:theme="@style/Theme.MediaDataResearch.AppBarOverlay">-->

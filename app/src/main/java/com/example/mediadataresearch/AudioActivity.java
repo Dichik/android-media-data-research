@@ -50,4 +50,21 @@ public class AudioActivity extends AppCompatActivity {
         stopPlayer();
     }
 
+    public void increasePlaybackTime(View v) {
+        if (player != null) {
+            int currentPosition = player.getCurrentPosition();
+            int newTime = currentPosition + 10_000;
+            player.seekTo(newTime);
+        }
+    }
+
+    public void decreasePlaybackTime(View v) {
+        if (player != null) {
+            int currentPosition = player.getCurrentPosition();
+            int newTime = currentPosition - 10_000;
+            newTime = Math.max(newTime, 0);
+            player.seekTo(newTime);
+        }
+    }
+
 }
